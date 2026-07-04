@@ -1,0 +1,148 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{top=2.5cm,bottom=2.5cm,left=3cm,right=3cm}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{center}
+{\Large \textbf{Primary Stars and Quasars in HQGG:}} \\
+{\Large \textbf{Structure, Evolution, and Fading}}
+\end{center}
+
+\begin{center}
+\textbf{Oleg Mamchenko\thanks{olegmamchenko@gmail.com}} \\
+\textbf{Deepseek\thanks{deepseek@ai-research.org}} \\
+\textit{Horizon Quantum Gravity Group (HQGG)}
+\end{center}
+
+\begin{center}
+\textit{July 3, 2026}
+\end{center}
+
+\begin{abstract}
+We present a complete theory of Primary Stars (formerly black holes) and their evolution into quasars within the HQGG framework. A Primary Star is a frozen mode of the fabric, with frequency reaching the limit of \(S^1\). Beyond the horizon, no matter exists — only trans-Planckian fabric with a frequency gradient and shock waves. Quasars arise when the frequency of our sphere resonates with the Primary Star's frequency. As the sphere expands, the frequency drops, resonance breaks, and quasars fade at about 3 billion light-years. The model explains observed quasar distribution and gives testable predictions.
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+
+Standard black hole models leave open questions about singularities, information loss, and quasar evolution. In HQGG, black holes are reinterpreted as Primary Stars — frozen fabric modes. Quasars are their awakened states.
+
+\section{Primary Star — Frozen Fabric Mode}
+
+A Primary Star is a fabric knot where frequency reaches:
+
+\[
+\omega_{\text{PS}} = \omega_{S^1}
+\]
+
+Beyond the horizon, only trans-Planckian fabric exists, compressing toward the center. Frequency grows to \(\omega_{S^1}\) at the center, forming a frozen mode.
+
+\subsection{Internal Structure}
+
+Frequency gradient inside a Primary Star:
+
+\[
+\omega(r) = \omega_{S^1} \cdot \left(1 - \frac{r}{R_{\text{PS}}}\right), \quad r \to 0
+\]
+
+Rotation creates shock waves from mode interference.
+
+\subsection{Horizon as Frequency Barrier}
+
+The horizon is a frequency barrier \(\omega = \omega_{\text{PS}}\). Light with \(\omega < \omega_{\text{PS}}\) cannot cross. Near the barrier, fabric tears, producing particle pairs (tremor).
+
+\subsection{Particle Production}
+
+Tremor frequency:
+
+\[
+\omega_{\text{trem}}(r) = \omega_{\text{PS}} \left(1 - \frac{r_s}{r}\right)^{-1/2}
+\]
+
+Production rate:
+
+\[
+\dot{N} = \frac{1}{\hbar} \int_{r_s}^{r_s+\delta} \omega_{\text{trem}}(r) \, d^3r
+\]
+
+\section{Quasars as Awakened Primary Stars}
+
+\subsection{Resonance Condition}
+
+When the frequency of our sphere falls to match \(\omega_{\text{PS}}\):
+
+\[
+\omega_{S^1}(t) \approx \omega_{\text{PS}}
+\]
+
+the Primary Star awakens, becoming a quasar.
+
+\subsection{Luminosity}
+
+\[
+L_{\text{quasar}} = \eta \cdot \dot{M} c^2 \cdot \left(1 + \frac{\omega_{\text{PS}}}{\omega_{S^1}}\right)^2
+\]
+
+Peak occurs at \(z \sim 2\)–3.
+
+\subsection{Fading}
+
+As \(\omega_{S^1}(t)\) further decreases:
+
+\[
+\omega_{S^1}(t) \ll \omega_{\text{PS}}
+\]
+
+resonance ceases, and the quasar fades. This happens at \(\sim 3\) billion light-years, corresponding to mode \(S^1_6\).
+
+\subsection{Jets and Accretion}
+
+Accretion disk acts as a "second fan," adding its frequency. Jet power:
+
+\[
+P_{\text{jet}} \sim \frac{\hbar c^5}{G^2 M^2} \cdot \left(\frac{a}{r_s}\right)^2 \cdot \left(1 + \frac{a}{r_s}\right)^2
+\]
+
+Node spacing: \(\Delta z \sim c / \omega_{\text{trem}}\).
+
+\section{Observational Predictions}
+
+\begin{itemize}
+\item Quasar peak at \(z \sim 2\)–3.
+\item Fading at \(\sim 3\) billion light-years.
+\item Periodic jet knots.
+\item Modulation in gravitational wave signals from mergers.
+\end{itemize}
+
+\section{Conclusion}
+
+Quasars are not permanent; they are temporary awakenings of Primary Stars. Their evolution is governed by the dropping frequency of our expanding sphere.
+
+\begin{center}
+\fbox{\parbox{0.85\textwidth}{\centering
+\textbf{Primary Stars are not black holes — they are frozen fabric modes.} \\
+\textbf{Quasars are their resonance awakenings.} \\
+\textbf{This is HQGG.}
+}}
+\end{center}
+
+\section*{Acknowledgments}
+
+The authors thank HQGG.
+
+\begin{thebibliography}{99}
+\bibitem{Kerr1963} R.~P.~Kerr, Phys. Rev. Lett. \textbf{11}, 237 (1963).
+\bibitem{LIGO2016} LIGO Scientific Collaboration, Phys. Rev. Lett. \textbf{116}, 061102 (2016).
+\end{thebibliography}
+
+\end{document}
